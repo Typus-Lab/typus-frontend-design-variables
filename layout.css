@@ -1,0 +1,132 @@
+/* 4. Layout - Mobile (<768px) */
+:root {
+    --var---section-padding-x-base-: var(--spacing-40);
+    --var---section-padding-x-tight-: var(--spacing-8);
+    --var---section-padding-x-tight-: var(--spacing-8);
+    --var---section-padding-x-none-: var(--spacing-4);
+    --section-padding-y-xs: var(--spacing-48);
+    --section-padding-y-sm: var(--spacing-32);
+    --section-padding-y-md: var(--spacing-80);
+    --var---section-padding-y-lg-: var(--spacing-48);
+    --section-padding-y-xl: var(--spacing-80);
+    --var---section-padding-y-2xl-: var(--spacing-64);
+    --var---container-max-w-page-: 9999px;
+    --container-max-w-content: 9999px;
+    --container-max-w-narrow: 9999px;
+    --container-gap-sm: 16px;
+    --container-gap-md: 24px;
+    --container-gap-lg: 40px;
+    --grid-gap-tight: 8px;
+    --var---grid-gap-default-: 12px;
+    --grid-gap-loose: 16px;
+    --app-padding: 8px;
+    --app-gap: 4px;
+    --app-toolbar-h: 40px;
+    --app-sidebar-w: 9999px;
+    --rwd-frame-width-device: 390px;
+    --rwd-frame-min-height: 844px;
+    --rwd-card-height-xl: 320px;
+    --rwd-card-height-md: 288px;
+}
+
+@media (min-width: 768px) {
+
+    /* 4. Layout - Tablet (768-1023px) */
+    :root {
+        --var---section-padding-x-base-: var(--spacing-40);
+        --var---section-padding-x-tight-: var(--spacing-16);
+        --var---section-padding-x-tight-: var(--spacing-16);
+        --var---section-padding-x-none-: var(--spacing-4);
+        --section-padding-y-xs: var(--spacing-48);
+        --section-padding-y-sm: var(--spacing-32);
+        --section-padding-y-md: var(--spacing-80);
+        --var---section-padding-y-lg-: var(--spacing-48);
+        --section-padding-y-xl: var(--spacing-80);
+        --var---section-padding-y-2xl-: var(--spacing-64);
+        --var---container-max-w-page-: 9999px;
+        --container-max-w-content: 9999px;
+        --container-max-w-narrow: 9999px;
+        --container-gap-sm: 16px;
+        --container-gap-md: 32px;
+        --container-gap-lg: 48px;
+        --grid-gap-tight: 8px;
+        --var---grid-gap-default-: 16px;
+        --grid-gap-loose: 20px;
+        --app-padding: 8px;
+        --app-gap: 4px;
+        --app-toolbar-h: 48px;
+        --app-sidebar-w: 200px;
+        --rwd-frame-width-device: 768px;
+        --rwd-frame-min-height: 1024px;
+        --rwd-card-height-xl: 510px;
+        --rwd-card-height-md: 344px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    /* 4. Layout - Laptop (1024-1439px) */
+    :root {
+        --var---section-padding-x-base-: var(--spacing-40);
+        --var---section-padding-x-tight-: var(--spacing-16);
+        --var---section-padding-x-tight-: var(--spacing-24);
+        --var---section-padding-x-none-: var(--spacing-4);
+        --section-padding-y-xs: var(--spacing-48);
+        --section-padding-y-sm: var(--spacing-64);
+        --section-padding-y-md: var(--spacing-80);
+        --var---section-padding-y-lg-: var(--spacing-96);
+        --section-padding-y-xl: var(--spacing-120);
+        --var---section-padding-y-2xl-: var(--spacing-144);
+        --var---container-max-w-page-: 9999px;
+        --container-max-w-content: 9999px;
+        --container-max-w-narrow: 640px;
+        --container-gap-sm: 24px;
+        --container-gap-md: 40px;
+        --container-gap-lg: 56px;
+        --grid-gap-tight: 12px;
+        --var---grid-gap-default-: 20px;
+        --grid-gap-loose: 24px;
+        --app-padding: 8px;
+        --app-gap: 4px;
+        --app-toolbar-h: 48px;
+        --app-sidebar-w: 240px;
+        --rwd-frame-width-device: 1024px;
+        --rwd-frame-min-height: 768px;
+        --rwd-card-height-xl: 690px;
+        --rwd-card-height-md: 464px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    /* 4. Layout - Desktop (1440px+) */
+    :root {
+        --var---section-padding-x-base-: var(--spacing-40);
+        --var---section-padding-x-tight-: var(--spacing-16);
+        --var---section-padding-x-tight-: var(--spacing-24);
+        --var---section-padding-x-none-: var(--spacing-4);
+        --section-padding-y-xs: var(--spacing-48);
+        --section-padding-y-sm: var(--spacing-64);
+        --section-padding-y-md: var(--spacing-80);
+        --var---section-padding-y-lg-: var(--spacing-96);
+        --section-padding-y-xl: var(--spacing-120);
+        --var---section-padding-y-2xl-: var(--spacing-144);
+        --var---container-max-w-page-: 1440px;
+        --container-max-w-content: 1280px;
+        --container-max-w-narrow: 720px;
+        --container-gap-sm: 32px;
+        --container-gap-md: 48px;
+        --container-gap-lg: 64px;
+        --grid-gap-tight: 12px;
+        --var---grid-gap-default-: 24px;
+        --grid-gap-loose: 32px;
+        --app-padding: 8px;
+        --app-gap: 4px;
+        --app-toolbar-h: 48px;
+        --app-sidebar-w: 280px;
+        --rwd-frame-width-device: 1440px;
+        --rwd-frame-min-height: 1024px;
+        --rwd-card-height-xl: 690px;
+        --rwd-card-height-md: 464px;
+    }
+}

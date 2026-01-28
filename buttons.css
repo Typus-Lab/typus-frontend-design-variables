@@ -1,0 +1,39 @@
+/* 6. Button States - default */
+:root {
+    --button-white-state-default: var(--Component-button-button-white);
+    --card-default: var(--color-text-primary-light);
+    --card-landing-state-default: false;
+    --card-overlay-opacity-default: 0px;
+    --primary-button-color-default: var(--color-brand-primary);
+    --icon-color-default: var(--color-brand-deep);
+
+    /* 6. Button States - hover */
+    --button-white-state-hover: var(--color-neutral-200);
+    --card-hover: var(--color-Highlights-colorHighlightHover);
+    --card-landing-state-hover: true;
+    --card-overlay-opacity-hover: 0.25px;
+    --primary-button-color-hover: var(--color-brand-hover);
+    --icon-color-hover: var(--color-brand-hover);
+
+    /* 6. Button States - pressed */
+    --button-white-state-active: var(--Component-button-button-white-hover);
+    --card-active: var(--color-Highlights-colorHighlightPressed);
+    --card-landing-state-active: true;
+    --card-overlay-opacity-active: 0.3499999940395355px;
+    --primary-button-color-active: #ffffffff;
+    --icon-color-active: #ffffffff;
+}
+
+/* 6. Button States - pressed */
+.button-white-state {
+}
+.card {
+}
+.card-landing-state {
+}
+.card-overlay-opacity {
+}
+.primary-button-color {
+}
+.icon-color {
+}
