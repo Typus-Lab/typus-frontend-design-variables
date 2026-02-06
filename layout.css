@@ -1,21 +1,39 @@
 /* 4. Layout - Mobile (<768px) */
 :root {
-    --var---section-padding-x-base-: var(--spacing-40);
-    --var---section-padding-x-tight-: var(--spacing-8);
-    --var---section-padding-x-tight-: var(--spacing-8);
-    --var---section-padding-x-none-: var(--spacing-4);
-    --section-padding-y-xs: var(--spacing-48);
-    --section-padding-y-sm: var(--spacing-32);
-    --section-padding-y-md: var(--spacing-80);
-    --var---section-padding-y-lg-: var(--spacing-48);
-    --section-padding-y-xl: var(--spacing-80);
-    --var---section-padding-y-2xl-: var(--spacing-64);
+    --rwd-page-width: 390px;
+    --rwd-page-height: 844px;
+    --rwd-card-card-height-xl: 320px;
+    --rwd-card-card-height-md: 288px;
+    --rwd-card-card-width-md: 358px;
+    --section-gap-xs: var(--size-16);
+    --section-gap-sm: var(--size-24);
+    --section-gap-md: var(--size-32);
+    --section-gap-lg: var(--size-40);
+    --section-gap-xl: var(--size-64);
+    --section-gap-2xl: var(--size-80);
+    --section-gap-3xl: var(--size-112);
+    --var---section-padding-x-base-: var(--size-40);
+    --var---section-padding-x-none-: var(--size-4);
+    --var---section-padding-x-tight-: var(--size-8);
+    --var---section-padding-x-tight-: var(--size-8);
+    --var---section-padding-x-tight-: var(--size-8);
+    --var---section-padding-x-tight-: var(--size-16);
+    --var---section-padding-x-tight-: var(--size-24);
+    --var---section-padding-x-tight-: var(--size-32);
+    --section-padding-y-xs: var(--size-48);
+    --section-padding-y-sm: var(--size-32);
+    --section-padding-y-md: var(--size-80);
+    --var---section-padding-y-lg-: var(--size-48);
+    --section-padding-y-xl: var(--size-80);
+    --var---section-padding-y-2xl-: var(--size-64);
     --var---container-max-w-page-: 9999px;
     --container-max-w-content: 9999px;
     --container-max-w-narrow: 9999px;
     --container-gap-sm: 16px;
     --container-gap-md: 24px;
     --container-gap-lg: 40px;
+    --var---container-max-w-page-: 120px;
+    --var---container-max-w-page-: 172px;
     --grid-gap-tight: 8px;
     --var---grid-gap-default-: 12px;
     --grid-gap-loose: 16px;
@@ -23,32 +41,47 @@
     --app-gap: 4px;
     --app-toolbar-h: 40px;
     --app-sidebar-w: 9999px;
-    --rwd-frame-width-device: 390px;
-    --rwd-frame-min-height: 844px;
-    --rwd-card-height-xl: 320px;
-    --rwd-card-height-md: 288px;
+    --var---container-max-w-page-: 88px;
+    --var---container-max-w-page-: 220px;
 }
 
 @media (min-width: 768px) {
-
     /* 4. Layout - Tablet (768-1023px) */
     :root {
-        --var---section-padding-x-base-: var(--spacing-40);
-        --var---section-padding-x-tight-: var(--spacing-16);
-        --var---section-padding-x-tight-: var(--spacing-16);
-        --var---section-padding-x-none-: var(--spacing-4);
-        --section-padding-y-xs: var(--spacing-48);
-        --section-padding-y-sm: var(--spacing-32);
-        --section-padding-y-md: var(--spacing-80);
-        --var---section-padding-y-lg-: var(--spacing-48);
-        --section-padding-y-xl: var(--spacing-80);
-        --var---section-padding-y-2xl-: var(--spacing-64);
+        --rwd-page-width: 768px;
+        --rwd-page-height: 1024px;
+        --rwd-card-card-height-xl: 510px;
+        --rwd-card-card-height-md: 344px;
+        --rwd-card-card-width-md: 358px;
+        --section-gap-xs: var(--size-20);
+        --section-gap-sm: var(--size-32);
+        --section-gap-md: var(--size-48);
+        --section-gap-lg: var(--size-56);
+        --section-gap-xl: var(--size-80);
+        --section-gap-2xl: var(--size-96);
+        --section-gap-3xl: var(--size-120);
+        --var---section-padding-x-base-: var(--size-40);
+        --var---section-padding-x-none-: var(--size-4);
+        --var---section-padding-x-tight-: var(--size-8);
+        --var---section-padding-x-tight-: var(--size-16);
+        --var---section-padding-x-tight-: var(--size-16);
+        --var---section-padding-x-tight-: var(--size-24);
+        --var---section-padding-x-tight-: var(--size-32);
+        --var---section-padding-x-tight-: var(--size-40);
+        --section-padding-y-xs: var(--size-48);
+        --section-padding-y-sm: var(--size-32);
+        --section-padding-y-md: var(--size-80);
+        --var---section-padding-y-lg-: var(--size-48);
+        --section-padding-y-xl: var(--size-80);
+        --var---section-padding-y-2xl-: var(--size-64);
         --var---container-max-w-page-: 9999px;
         --container-max-w-content: 9999px;
         --container-max-w-narrow: 9999px;
         --container-gap-sm: 16px;
         --container-gap-md: 32px;
         --container-gap-lg: 48px;
+        --var---container-max-w-page-: 120px;
+        --var---container-max-w-page-: 172px;
         --grid-gap-tight: 8px;
         --var---grid-gap-default-: 16px;
         --grid-gap-loose: 20px;
@@ -56,33 +89,48 @@
         --app-gap: 4px;
         --app-toolbar-h: 48px;
         --app-sidebar-w: 200px;
-        --rwd-frame-width-device: 768px;
-        --rwd-frame-min-height: 1024px;
-        --rwd-card-height-xl: 510px;
-        --rwd-card-height-md: 344px;
+        --var---container-max-w-page-: 88px;
+        --var---container-max-w-page-: 220px;
     }
 }
 
 @media (min-width: 1024px) {
-
     /* 4. Layout - Laptop (1024-1439px) */
     :root {
-        --var---section-padding-x-base-: var(--spacing-40);
-        --var---section-padding-x-tight-: var(--spacing-16);
-        --var---section-padding-x-tight-: var(--spacing-24);
-        --var---section-padding-x-none-: var(--spacing-4);
-        --section-padding-y-xs: var(--spacing-48);
-        --section-padding-y-sm: var(--spacing-64);
-        --section-padding-y-md: var(--spacing-80);
-        --var---section-padding-y-lg-: var(--spacing-96);
-        --section-padding-y-xl: var(--spacing-120);
-        --var---section-padding-y-2xl-: var(--spacing-144);
+        --rwd-page-width: 1024px;
+        --rwd-page-height: 768px;
+        --rwd-card-card-height-xl: 690px;
+        --rwd-card-card-height-md: 464px;
+        --rwd-card-card-width-md: 456px;
+        --section-gap-xs: var(--size-24);
+        --section-gap-sm: var(--size-40);
+        --section-gap-md: var(--size-56);
+        --section-gap-lg: var(--size-64);
+        --section-gap-xl: var(--size-96);
+        --section-gap-2xl: var(--size-112);
+        --section-gap-3xl: var(--size-144);
+        --var---section-padding-x-base-: var(--size-40);
+        --var---section-padding-x-none-: var(--size-4);
+        --var---section-padding-x-tight-: var(--size-8);
+        --var---section-padding-x-tight-: var(--size-16);
+        --var---section-padding-x-tight-: var(--size-24);
+        --var---section-padding-x-tight-: var(--size-32);
+        --var---section-padding-x-tight-: var(--size-40);
+        --var---section-padding-x-tight-: var(--size-48);
+        --section-padding-y-xs: var(--size-48);
+        --section-padding-y-sm: var(--size-64);
+        --section-padding-y-md: var(--size-80);
+        --var---section-padding-y-lg-: var(--size-96);
+        --section-padding-y-xl: var(--size-120);
+        --var---section-padding-y-2xl-: var(--size-144);
         --var---container-max-w-page-: 9999px;
         --container-max-w-content: 9999px;
         --container-max-w-narrow: 640px;
         --container-gap-sm: 24px;
         --container-gap-md: 40px;
         --container-gap-lg: 56px;
+        --var---container-max-w-page-: 300px;
+        --var---container-max-w-page-: 520px;
         --grid-gap-tight: 12px;
         --var---grid-gap-default-: 20px;
         --grid-gap-loose: 24px;
@@ -90,33 +138,48 @@
         --app-gap: 4px;
         --app-toolbar-h: 48px;
         --app-sidebar-w: 240px;
-        --rwd-frame-width-device: 1024px;
-        --rwd-frame-min-height: 768px;
-        --rwd-card-height-xl: 690px;
-        --rwd-card-height-md: 464px;
+        --var---container-max-w-page-: 162px;
+        --var---container-max-w-page-: 460px;
     }
 }
 
 @media (min-width: 1440px) {
-
     /* 4. Layout - Desktop (1440px+) */
     :root {
-        --var---section-padding-x-base-: var(--spacing-40);
-        --var---section-padding-x-tight-: var(--spacing-16);
-        --var---section-padding-x-tight-: var(--spacing-24);
-        --var---section-padding-x-none-: var(--spacing-4);
-        --section-padding-y-xs: var(--spacing-48);
-        --section-padding-y-sm: var(--spacing-64);
-        --section-padding-y-md: var(--spacing-80);
-        --var---section-padding-y-lg-: var(--spacing-96);
-        --section-padding-y-xl: var(--spacing-120);
-        --var---section-padding-y-2xl-: var(--spacing-144);
+        --rwd-page-width: 1440px;
+        --rwd-page-height: 1024px;
+        --rwd-card-card-height-xl: 690px;
+        --rwd-card-card-height-md: 464px;
+        --rwd-card-card-width-md: 456px;
+        --section-gap-xs: var(--size-32);
+        --section-gap-sm: var(--size-48);
+        --section-gap-md: var(--size-64);
+        --section-gap-lg: var(--size-80);
+        --section-gap-xl: var(--size-120);
+        --section-gap-2xl: var(--size-144);
+        --section-gap-3xl: var(--size-176);
+        --var---section-padding-x-base-: var(--size-40);
+        --var---section-padding-x-none-: var(--size-4);
+        --var---section-padding-x-tight-: var(--size-8);
+        --var---section-padding-x-tight-: var(--size-16);
+        --var---section-padding-x-tight-: var(--size-24);
+        --var---section-padding-x-tight-: var(--size-32);
+        --var---section-padding-x-tight-: var(--size-40);
+        --var---section-padding-x-tight-: var(--size-48);
+        --section-padding-y-xs: var(--size-48);
+        --section-padding-y-sm: var(--size-64);
+        --section-padding-y-md: var(--size-80);
+        --var---section-padding-y-lg-: var(--size-96);
+        --section-padding-y-xl: var(--size-120);
+        --var---section-padding-y-2xl-: var(--size-144);
         --var---container-max-w-page-: 1440px;
         --container-max-w-content: 1280px;
         --container-max-w-narrow: 720px;
         --container-gap-sm: 32px;
         --container-gap-md: 48px;
         --container-gap-lg: 64px;
+        --var---container-max-w-page-: 300px;
+        --var---container-max-w-page-: 520px;
         --grid-gap-tight: 12px;
         --var---grid-gap-default-: 24px;
         --grid-gap-loose: 32px;
@@ -124,9 +187,7 @@
         --app-gap: 4px;
         --app-toolbar-h: 48px;
         --app-sidebar-w: 280px;
-        --rwd-frame-width-device: 1440px;
-        --rwd-frame-min-height: 1024px;
-        --rwd-card-height-xl: 690px;
-        --rwd-card-height-md: 464px;
+        --var---container-max-w-page-: 162px;
+        --var---container-max-w-page-: 460px;
     }
 }

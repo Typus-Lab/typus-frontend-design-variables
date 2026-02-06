@@ -1,5 +1,7 @@
-@import './typography.css';
-@import './spacing.css';
-@import './layout.css';
-@import './colors.css';
-@import './primitives.css';
+@import "./typography.css";
+@import "./spacing.css";
+@import "./layout.css";
+@import "./colors.css";
+@import "./primitives.css";
+@import "./1440.css";
+@import "./1024.css";
