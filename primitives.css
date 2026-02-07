@@ -1,6 +1,6 @@
 /* 1. Primitives - Primitives_With_Semantic */
 :root {
-    --font-weight-light: 300px;
+    --font-weight-light: 300;
     --radius-2xs: var(--size-2);
     --radius-xs: var(--size-4);
     --radius-sm: var(--size-6);
@@ -15,7 +15,7 @@
     --radius-7xl: var(--size-48);
     --radius-8xl: var(--size-56);
     --radius-full: var(--size-999);
-    --font-weight-regular: 400px;
+    --font-weight-regular: 400;
     --color-base-white: #ffffffff;
     --color-transparent-white-3: #ffffff08;
     --color-transparent-white-5: #ffffff0d;
@@ -220,7 +220,7 @@
     --size-180: 180px;
     --size-999: 999px;
     --color-brand-linear: #ffffffff;
-    --font-weight-medium: 500px;
-    --font-weight-semibold: 600px;
-    --font-weight-bold: 700px;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
 }
